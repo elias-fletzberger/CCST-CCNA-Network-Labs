@@ -33,3 +33,7 @@ Der Switch lernt die MAC-Adressen dynamisch.
 - Funktionsweise eines Layer-2-Switches
 - MAC-Adress-Learning
 - Grundlegende CLI-Navigation
+
+# Hinweis
+Der Switch wird mit Default-Konfiguration betrieben, um den Fokus
+auf grundlegendes Layer-2-Switching und Konnektivität zu legen.
