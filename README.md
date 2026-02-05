@@ -16,4 +16,4 @@ Dieses Repository enthält praxisnahe Netzwerk-Labs zur Vertiefung von:
 - Cisco IOS CLI
 
 ## Labs
-- Lab 01: Basic Switching & Connectivity (in progress)
+- Lab 01: Basic Switching & Connectivity (completed)
