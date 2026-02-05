@@ -17,3 +17,4 @@ Dieses Repository enthält praxisnahe Netzwerk-Labs zur Vertiefung von:
 
 ## Labs
 - Lab 01: Basic Switching & Connectivity (completed)
+- Lab 02: VLANs & Trunking (planned)
