@@ -5,9 +5,7 @@ Aufbau eines einfachen Layer-2-Netzwerks und Überprüfung der Konnektivität
 zwischen mehreren Endgeräten.
 
 ## Topologie
-- 1x Cisco Switch
-- 2x PCs
-- Alle Geräte im selben Netzwerk
+  ![Topologie](screenshots/topology.png)
 
 ## IP-Adressierung
 | Gerät | IP-Adresse | Subnetz |
