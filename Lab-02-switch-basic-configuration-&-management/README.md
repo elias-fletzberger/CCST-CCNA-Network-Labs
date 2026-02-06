@@ -5,7 +5,7 @@ Grundlegende Inbetriebnahme, Absicherung und Verwaltung eines Cisco Switches
 über CLI und sichere Management-Zugänge.
 
 ## Topologie
- ![Topologie](screenshots/topology.png)
+  ![Topologie](screenshots/topology.png)
 
 ## IP-Adressierung
 | Gerät | Interface | IP-Adresse |
@@ -20,8 +20,9 @@ Grundlegende Inbetriebnahme, Absicherung und Verwaltung eines Cisco Switches
 - SSH-Zugriff
 
 ## Verifikation
-- `show` Befehle
-- SSH Login erfolgreich
+- korrekte Konfiguration über `show running-config`
+- SSH Zugriff von PC getestet und erfolgreich 
+  ![SSH Login](screenshots/ssh-login.png)
 
 ## Zugriffsschutz
 - Switch wird über ein lokales Benutzerkonto verwaltet (`login local`)
