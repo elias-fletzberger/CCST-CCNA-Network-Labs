@@ -8,19 +8,29 @@ Grundlegende Inbetriebnahme, Absicherung und Verwaltung eines Cisco Switches
 - 1x Cisco Switch (2960)
 - 1x PC
 - 1x Netzwerk (192.168.1.0/24)
+- ![Topologie](screenshots/topology.png)
 
 ## IP-Adressierung
-| Gerät | IP-Adresse | Subnetz |
+| Gerät | Interface | IP-Adresse |
 |------|------------|---------|
-| S1 (SVI) | 192.168.1.2 | /24 |
-| PC  | 192.168.1.10 | /24 |
+| S1 | VLAN 1 (SVI) | 192.168.1.2/24 |
+| PC  | NIC | 192.168.1.10/24 |
 
-## Durchführung
-
+## Durchgefühte Konfiguration
+- Basis-Konfiguration
+- Zugriffsschutz (Console / VTY)
+- Management-IP
+- SSH-Zugriff
 
 ## Verifikation
+- `show` Befehle
+- SSH Login erfolgreich
 
-
-## Ergebnis
-
+## Zugriffsschutz
+- Switch wird über ein lokales Benutzerkonto verwaltet (`login local`)
+- Passwörter verschlüsselt (`secret`)
+- Telnet ist deaktiviert, Zugriff erfolgt ausschließlich über SSH
+  
 ## Gelernt
+- Sichere Erstkonfiguration eines Switches
+- Management-Zugriff via SSH
