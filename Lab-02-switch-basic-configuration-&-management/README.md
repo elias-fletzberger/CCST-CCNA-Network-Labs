@@ -1,1 +1,19 @@
-# Lab 02
+# Lab 02 - Switch Basic Configuration & Management
+
+## Ziel
+
+## Topologie
+
+
+## IP-Adressierung
+
+
+## Durchführung
+
+
+## Verifikation
+
+
+## Ergebnis
+
+## Gelernt
