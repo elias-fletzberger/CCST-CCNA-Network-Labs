@@ -1,5 +1,6 @@
 # Lab 02 - Switch Basic Configuration & Management
 
+
 ## Ziel
 Grundlegende Inbetriebnahme, Absicherung und Verwaltung eines Cisco Switches
 über CLI und sichere Management-Zugänge.
