@@ -5,10 +5,7 @@ Grundlegende Inbetriebnahme, Absicherung und Verwaltung eines Cisco Switches
 über CLI und sichere Management-Zugänge.
 
 ## Topologie
-- 1x Cisco Switch (2960)
-- 1x PC
-- 1x Netzwerk (192.168.1.0/24)
-- ![Topologie](screenshots/topology.png)
+ ![Topologie](screenshots/topology.png)
 
 ## IP-Adressierung
 | Gerät | Interface | IP-Adresse |
