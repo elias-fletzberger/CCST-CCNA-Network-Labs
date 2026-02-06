@@ -21,7 +21,8 @@ Grundlegende Inbetriebnahme, Absicherung und Verwaltung eines Cisco Switches
 
 ## Verifikation
 - korrekte Konfiguration über `show running-config`
-- SSH Zugriff von PC getestet und erfolgreich 
+- SSH Zugriff von PC getestet und erfolgreich
+  
   ![SSH Login](screenshots/ssh-login.png)
 
 ## Zugriffsschutz
