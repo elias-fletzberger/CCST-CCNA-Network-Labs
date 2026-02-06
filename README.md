@@ -17,8 +17,8 @@ Dieses Repository enthält praxisnahe Netzwerk-Labs zur Vertiefung von:
 
 ## Labs
 - Lab 01: Basic Switching & Connectivity (completed)
-- Lab 02: Switch Basic Configuration & Management (in progress)
-- Lab 03: VLANs & Trunking (planned)
+- Lab 02: Switch Basic Configuration & Management (completed)
+- Lab 03: VLANs & Trunking (in progress)
 - Lab 04: Inter-VLAN Routing (planned)
 - Lab 05: Static Routing & Default Routes (planned)
 - Lab 06: Dynamic Routing mit OSPF [Single Area] (planned)
