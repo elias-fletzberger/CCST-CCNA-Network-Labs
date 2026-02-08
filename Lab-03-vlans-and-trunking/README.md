@@ -12,7 +12,7 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 |------|------------|---------|
 | 10 | CLIENTS | PCs |
 | 20 | SERVERS | Server |
-| 99 | Native | natives VLAN |
+| 99 | NATIVE | natives VLAN |
 
 ## IP-Adressierung
 | Gerät | VLAN | IP-Adresse |
