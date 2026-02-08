@@ -10,9 +10,9 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 ## VLAN-Design
 | VLAN | Name | Zweck |
 |------|------------|---------|
-| 10 | 10 | 192.168.1.11/24 |
-| 20 | 20 | 192.168.1.21/24 |
-| 99 | Native | 192.168.1.12/24 |
+| 10 | CLIENTS | PCs |
+| 20 | SERVERS | Server |
+| 99 | Native | natives VLAN |
 
 ## IP-Adressierung
 | Gerät | VLAN | IP-Adresse |
@@ -28,10 +28,9 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 - Trunk Port zugeweisen und Nativ VLAN setzen
 
 ## Verifikation
--  show Befehle
-  
-    `show vlan brief`
-   
+-  `show vlan brief`
+-  `show interfaces trunk`
+-  `show mac address-table vlan 10` und für `vlan 20`
 - kommunikation innerhalb eines VLANs prüfen mit `ping`
 - kein Routing zwischen VLANs prüfen, mit `ping` zu Host im anderen VLAN
 
