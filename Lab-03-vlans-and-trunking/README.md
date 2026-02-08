@@ -31,7 +31,7 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 - [show vlan brief](screenshots/show-vlan-brief.png)
 - [show interfaces trunk](screenshots/show-interfaces-trunk.png)
 - kommunikation innerhalb eines VLANs prüfen mit [ping](screenshots/pings)
-- kein Routing zwischen VLANs prüfen, mit [ping](screenshots/ping-vlan20-nach-vlan10.png) zu Host im anderen VLAN
+- kein Routing zwischen VLANs prüfen, mit [ping](screenshots/pings/ping-vlan20-nach-vlan10.png) zu Host im anderen VLAN
 
 ## Typische Fehler
 - Trunk nicht aktiv
