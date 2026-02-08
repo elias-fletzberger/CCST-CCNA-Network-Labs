@@ -29,6 +29,7 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 
 ## Verifikation
 -  show Befehle
+  
     `show vlan brief`
    
 - kommunikation innerhalb eines VLANs prüfen mit `ping`
