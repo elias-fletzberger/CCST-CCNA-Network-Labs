@@ -11,8 +11,8 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 | Gerät | VLAN | IP-Adresse |
 |------|------------|---------|
 | PC1 | 10 | 192.168.10.10/24 |
-| PC2 | 10 | 192.168.10.11/24 |
-| PC3 | 20 | 192.168.20.10/24 |
+| PC2 | 20 | 192.168.20.10/24 |
+| PC3 | 10 | 192.168.10.11/24 |
 | PC4 | 20 | 192.168.20.11/24 |
 
 ## Konfiguration
