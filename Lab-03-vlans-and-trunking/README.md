@@ -7,6 +7,13 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 ## Topologie
   ![Topologie](screenshots/topology.png)
 
+## VLAN-Design
+| VLAN | Name | Zweck |
+|------|------------|---------|
+| 10 | 10 | 192.168.1.11/24 |
+| 20 | 20 | 192.168.1.21/24 |
+| 99 | Native | 192.168.1.12/24 |
+
 ## IP-Adressierung
 | Gerät | VLAN | IP-Adresse |
 |------|------------|---------|
@@ -22,7 +29,7 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 
 ## Verifikation
 -  show Befehle
-  -- `show vlan brief` 
++ `show vlan brief` 
 - kommunikation innerhalb eines VLANs prüfen mit `ping`
 - kein Routing zwischen VLANs prüfen, mit `ping` zu Host im anderen VLAN
 
