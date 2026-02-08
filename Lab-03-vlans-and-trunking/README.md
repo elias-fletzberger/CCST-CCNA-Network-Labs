@@ -5,7 +5,7 @@ Segmentierung eines Netzwerks mit VLANs sowie Konfiguration von
 Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 
 ## Topologie
-  ![Topologie](screenshots/topology.png)
+  [Topologie](screenshots/topology.png)
 
 ## VLAN-Design
 | VLAN | Name | Zweck |
