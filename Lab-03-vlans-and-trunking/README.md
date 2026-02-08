@@ -16,12 +16,22 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 | PC4 | 20 | 192.168.1.22/24 |
 
 ## Konfiguration
-- VLANs
-- Access Ports
-- Trunk Port
+- VLANs auf Switch1 & Switch2 setzen
+- Access Ports VLANs zugeweisen
+- Trunk Port zugeweisen und Nativ VLAN setzen
 
 ## Verifikation
+-  show Befehle
+  - `show vlan brief` 
+- kommunikation innerhalb eines VLANs prüfen mit `ping`
+- kein Routing zwischen VLANs prüfen, mit `ping` zu Host im anderen VLAN
 
+## Typische Fehler
+- Trunk nicht aktiv
+- VLAN fehlt auf einem Switch
+- Natives VLAN mismatch
   
 ## Gelernt
+- VLAN-Isolation
+- Trunking mit 802.1Q
 
