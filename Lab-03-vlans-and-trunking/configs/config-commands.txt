@@ -2,18 +2,18 @@ enable
 
 configure terminal
 
-hostname "(S1 / S2)"
+hostname S1 (bzw. S2)
 
 vlan 10
-name "CLIENTS"
+name CLIENTS
 exit
 
 vlan 20
-name "SERVERS"
+name SERVERS
 exit
 
 vlan 99
-name "NATIVE"
+name NATIVE
 exit
 
 interface range fastEthernet 0/1-10
