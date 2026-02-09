@@ -3,7 +3,7 @@
 ## Profil
 Ausgebildeter Assistent für Informatik mit CCST-Zertifizierung.
 
-##Ziel
+## Ziel
 Einstieg in die IT (Support / Networking) und Vorbereitung auf den CCNA.
 
 ## Inhalt
