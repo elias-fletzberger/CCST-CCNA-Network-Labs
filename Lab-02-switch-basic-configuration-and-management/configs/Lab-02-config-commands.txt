@@ -2,14 +2,14 @@ enable
 
 configure terminal
 
-hostname "S1"
+hostname S1
 
-banner motd "#No unauthorized access allowed!
-   Hello i am the switch :D#"
+banner motd #No unauthorized access allowed!
+   Hello i am the switch :D#
 
-username "admin" secret "s3cr3t p4SS"
+username admin secret s3cr3t p4SS
 
-enable secret "let4dm1nIN"
+enable secret let4dm1nIN
 
 service password-encrytion
 
@@ -23,11 +23,11 @@ transport input ssh
 exit
 
 interface vlan 1
-ip address "192.168.1.2 255.255.255.0"
+ip address 192.168.1.2 255.255.255.0
 no shutdown
 exit
 
-ip domain-name "switch-config.de"
+ip domain-name switch-config.de
 crypto key generate rsa
 ip ssh version 2
 exit
@@ -35,4 +35,5 @@ exit
 show ip ssh
 show running-config
 copy running-config startup-config
+
 exit
