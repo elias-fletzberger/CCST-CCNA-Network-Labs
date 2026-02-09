@@ -33,8 +33,7 @@ switchport trunk native vlan 99
 exit
 
 exit
+
 show vlan brief
 show interfaces trunk
-
 exit
-
