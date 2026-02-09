@@ -36,4 +36,7 @@ exit
 
 show vlan brief
 show interfaces trunk
+show running-config
+copy running-config startup-config
 exit
+
