@@ -1,11 +1,12 @@
 # Lab 03 - VLANs & Trunking
 
 ## Ziel
-Segmentierung eines Netzwerks mit VLANs sowie Konfiguration von
-Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
+Segmentierung eines Netzwerks mittels VLANs sowie Konfiguration von
+Access- und Trunk-Ports zum kontrollierten weiterleiten von VLAN-Traffic
+zwischen mehreren Switches.
 
 ## Topologie
-  ![Topologie](screenshots/topology.png)
+![Topologie](screenshots/topology.png)
 
 ## VLAN-Design
 | VLAN | Name | Zweck |
@@ -23,15 +24,20 @@ Access- und Trunk-Ports zur VLAN-übergreifenden Kommunikation auf Layer 2.
 | PC4 | 20 | 192.168.1.22/24 |
 
 ## Konfiguration
-- VLANs auf Switch1 & Switch2 setzen
-- Access Ports VLANs zugeweisen
-- Trunk Port zugeweisen und Nativ VLAN setzen
+- VLANs auf beiden Switches erstellt
+- Access Ports den entsprechenden VLANs zugewiesen
+- Trunk Port konfiguriert
+- Native VLAN auf VLAN 99 gesetzt
 
 ## Verifikation
+
+### VLAN-Konfiguration
 - [show vlan brief](screenshots/show-vlan-brief.png)
 - [show interfaces trunk](screenshots/show-interfaces-trunk.png)
-- kommunikation innerhalb eines VLANs prüfen mit [ping](screenshots/pings)
-- kein Routing zwischen VLANs prüfen, mit [ping](screenshots/pings/ping-vlan20-nach-vlan10.png) zu Host im anderen VLAN
+
+### Connectivity Tests
+- kommunikation innerhalb eines VLANs geprüft mit [ping](screenshots/pings)
+- kein Routing zwischen VLANs geprüft, mit [ping](screenshots/pings/ping-vlan20-nach-vlan10.png) zu Host im anderen VLAN
 
 ## Typische Fehler
 - Trunk nicht aktiv
