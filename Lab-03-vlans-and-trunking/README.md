@@ -32,12 +32,12 @@ zwischen mehreren Switches.
 ## Verifikation
 
 ### VLAN-Konfiguration
-- [show vlan brief](screenshots/show-vlan-brief.png)
-- [show interfaces trunk](screenshots/show-interfaces-trunk.png)
+- [`show vlan brief`](screenshots/show-vlan-brief.png)
+- [`show interfaces trunk`](screenshots/show-interfaces-trunk.png)
 
 ### Connectivity Tests
-- kommunikation innerhalb eines VLANs geprüft mit [ping](screenshots/pings)
-- kein Routing zwischen VLANs geprüft, mit [ping](screenshots/pings/ping-vlan20-nach-vlan10.png) zu Host im anderen VLAN
+- kommunikation innerhalb eines VLANs geprüft mit [`ping`](screenshots/pings)
+- kein Routing zwischen VLANs geprüft, mit [`ping`](screenshots/pings/ping-vlan20-nach-vlan10.png) zu Host im anderen VLAN
 
 ## Typische Fehler
 - Trunk nicht aktiv
