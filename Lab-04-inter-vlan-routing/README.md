@@ -18,7 +18,7 @@ sodass Geräte in unterschiedlichen VLANs miteinander kommunizieren können.
 | Gerät | VLAN | IP-Adresse |
 |------|------------|---------|
 | PC1 | 10 | 192.168.10.11/24 |
-| PC2 | 20 | 192.168.20.21/24 |
-| PC3 | 10 | 192.168.10.12/24 |
+| PC2 | 10 | 192.168.10.12/24 |
+| Server | 20 | 192.168.20.11/24 |
 | Router | 10 | 192.168.10.1/24 |
 | Router | 20 | 192.168.20.1/24 |
