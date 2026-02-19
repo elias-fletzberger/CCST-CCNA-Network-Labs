@@ -36,7 +36,7 @@ zu ermöglichen.
 ## Verifikation
 
 ### Router
-- [`show ip interface brief`](screenshots/show-p-interface-brief.png)
+- [`show ip interface brief`](screenshots/show-ip-interface-brief.png)
 - [`show ip route`](screenshots/show-ip-route.png)
 
 ### Switch
