@@ -45,7 +45,8 @@ zu ermöglichen.
 ### Connectivity Test
 - `ping` innerhalb von VLAN 10
 - `ping` zwischen VLAN 10 und VLAN 20
-  
+
+![Topologie](screenshots/topology.png)
 ![pings](screenshots/ping-vlan10-and-vlan20.png)
 
 ## Typische Fehler
