@@ -45,8 +45,7 @@ zu ermöglichen.
 ### Connectivity Test
 - `ping` innerhalb von VLAN 10
 - `ping` zwischen VLAN 10 und VLAN 20
-[pings](screenshots/ping-vlan10-and-vlan20.png)
-![`show interfaces trunk`](screenshots/show-interfaces-trunk.png)
+![pings](screenshots/ping-vlan10-and-vlan20.png)
 
 ## Typische Fehler
 - Subinterface ohne encapsulation dot1Q
